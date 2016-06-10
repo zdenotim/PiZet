@@ -1,0 +1,28 @@
+"""
+     ####      ######           #
+     #   #  #      #    ####    #
+     ####         #    #    #  ####
+     #      #    #     #####    #
+     #      #   #      #        #
+     #      #  ######   ####    ##    usage information:
+     
+    python PiZet_a0_4.py [-a, -c, -d, -m, -n, -s] for help [-h or --help]
+    
+    python PiZet_a0_4.py -u [eth0 | wlan0] n
+    
+    n - time interval for which is interface utilization calculated
+    
+    
+    Available arguments with short description and usage
+      -a all info               - PiZet shows all bellow described information except Interface utilization (-u).
+                                  Argument -u must be run separately
+      -c CPU info               - shows CPU temperature in Celsius and Fahrenheit, CPU utilization for 1 and 15 minute
+                                  average, then processor model, type and revision. Next shows processor frequency,
+                                  core frequency, core voltage and firmware.
+      -d Device info            - shows device serial number, operating system distribution and system up time
+      -m Memory info            - shows memory usage information like total, free and used memory...
+      -n Networking info        - display interface name its MAC address, IP address, received and transmitted data
+      -s Storage info           - shows storage information, same output like "df -h"
+      -u Interface utilization  - calculates utilization for selected interface for specified time interval
+      -h or --help              - script usage info
+        """
